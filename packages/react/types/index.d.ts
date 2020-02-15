@@ -95,7 +95,7 @@ export interface ClassNamesProps {
 export function ClassNames(props: ClassNamesProps): ReactElement
 
 declare module 'react' {
-  interface DOMAttributes<T> {
+  interface Attributes {
     css?: Interpolation<Theme>
   }
 }
