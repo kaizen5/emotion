@@ -8,7 +8,7 @@
     "dist"
   ],
   "dependencies": {
-    "@emotion/primitives-core": "^9.2.9",
+    "@emotion/primitives-core": "^9.2.10",
     "babel-plugin-emotion": "^9.2.11"
   },
   "peerDependencies": {
@@ -17,7 +17,7 @@
     "react-primitives": "^0.5.1"
   },
   "devDependencies": {
-    "emotion-theming": "^9.2.9",
+    "emotion-theming": "^9.2.10",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "react": "^16.9",

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "version": "7.0.13",
+  "version": "7.1.0",
   "scripts": {
     "build:watch": "node scripts/build/watch",
     "build": "node scripts/build",
@@ -92,10 +92,10 @@
     "preact-render-to-json": "^3.6.6",
     "prettier": "1.14.3",
     "raf": "^3.4.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "react": "^16.9",
+    "react-dom": "^16.9",
     "react-router-dom": "^4.2.2",
-    "react-test-renderer": "^16.3.2"
+    "react-test-renderer": "^16.9"
   },
   "author": "Kye Hohenberger",
   "homepage": "https://github.com/tkh44/emotion#readme",
