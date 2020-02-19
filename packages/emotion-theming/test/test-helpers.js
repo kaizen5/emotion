@@ -68,7 +68,7 @@ export class ContextTrap extends Component {
   static contextTypes = {
     [channel]: PropTypes.object.isRequired
   }
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     if (this.context[channel]) {
       this.unsubscribe = this.context[channel].subscribe(this.props.intercept)
     }

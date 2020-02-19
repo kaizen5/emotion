@@ -32,7 +32,7 @@ export default class DocSidebar extends React.Component<Props, State> {
     this.setState({ open })
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     if (mql !== undefined) {
       mql.addListener(this.mediaQueryChanged)
 
